@@ -1,16 +1,16 @@
-# weight_tracker
+# Weight Tracker
 
-A new Flutter application.
+A Flutter application that lets users track weight data. The app uses the following:
 
-## Getting Started
+- Firebase Auth for authentication.
+- Firebase Cloud Firestore for realtime database
+- SharedPreferences for persisting user authentication data on device to remain authenticated even when app is terminated until the user logout
+- Flutter Bloc for state management
 
-This project is a starting point for a Flutter application.
+## Running The App
 
-A few resources to get you started if this is your first Flutter project:
+Clone this repo run: `flutter pub get` to get the packages setup and then run: ` flutter pub run build_runner watch --delete-conflicting-outputs` to auto-generate the necessary bloc files. That's all; you can launch the app!
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [See a Demo of the app](https://flutter.dev/docs/get-started/codelab)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Created by Oniicode.
