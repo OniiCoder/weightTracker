@@ -2,7 +2,7 @@
 
 A Flutter application that lets users track weight data. 
 
-- [See a Demo of the app](https://flutter.dev/docs/get-started/codelab)
+- [See a Demo of the app functionalities](https://drive.google.com/uc?export=view&id=18Jxz4uqMiwpw1gkUysD4iZVPAslzhgqr)
 
 The app uses the following:
 
